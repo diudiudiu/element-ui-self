@@ -75,6 +75,16 @@
   }
 }
 
+/* BEM
+ -------------------------- */
+ @mixin testb($block) {
+  $B: $namespace+'-'+'test'+'-'++$block !global;
+
+  .#{$B} {
+    @content;
+  }
+}
+
 @mixin e($element) {
   $E: $element !global;
   $selector: &;

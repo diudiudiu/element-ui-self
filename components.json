@@ -81,5 +81,6 @@
   "avatar": "./packages/avatar/index.js",
   "drawer": "./packages/drawer/index.js",
   "popconfirm": "./packages/popconfirm/index.js",
-  "test-row": "./packages/test-row/index.js"
+  "test-row": "./packages/test-row/index.js",
+  "hematest": "./packages/hematest/index.js"
 }

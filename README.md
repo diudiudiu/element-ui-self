@@ -144,3 +144,21 @@ Scan the QR code using [Dingtalk App](https://www.dingtalk.com/) to join in disc
 
 ## LICENSE
 [MIT](LICENSE)
+
+
+## 组件添加方式
+
+### 1.element方式（样式存放在单独的scss中）
+
+直接在packages下创建你的组件文件夹，目录结构按照 test-row, 
+同时需要在components.json文件填写你的组件，用于打包,
+样式文件写在packages/theme-chalk/src/{{component.name}}.scss
+
+
+### 2.vue组件形式（将样式写在vue文件中）
+
+直接在packages下创建你的组件文件夹 目录结构按照 hematest 
+
+npm run dist 打包
+
+
